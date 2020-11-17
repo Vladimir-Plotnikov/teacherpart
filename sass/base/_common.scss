@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+.main-div {
+  width: 1170px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-inline-block {
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+}

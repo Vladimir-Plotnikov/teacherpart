@@ -1,0 +1,163 @@
+.footer {
+  width: 100%;
+  height: 252px;
+  background: #2f303a;
+
+  &__social-list {
+    display: inline-block;
+  }
+
+  &-logo-style {
+    display: inline-block;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    margin-bottom: 25px;
+    color: #2196f3;
+  }
+  &__title-social {
+    display: flex;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__list-svg {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      background-color: $accent-color;
+    }
+  }
+}
+
+.footer__list-svg:hover svg {
+  fill: white;
+}
+
+.svg-display {
+  display: inline-block;
+}
+
+.footer__social {
+  display: flex;
+  /*margin-left: 70px;*/
+  padding-left: 70px;
+  &-svg {
+    fill: #afb1b8;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.footer-display {
+  display: flex;
+  padding-top: 60px;
+}
+
+.logo-space {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__address-space {
+  padding-bottom: 6px;
+}
+
+.footer__adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: $title-dark-theme-color;
+}
+
+.footer-tel-mail {
+  padding-bottom: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  color: $subtitle-dark-theme-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__connect-us {
+  display: inline-block;
+}
+
+.footer__connect-us-title {
+  display: flex;
+  padding-left: 93px;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__input-connect-us {
+  margin-left: 93px;
+  width: 358px;
+  height: 50px;
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.footer__telegram {
+  display: inline-block;
+  position: relative;
+}
+
+.footer__telegram-button {
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 36px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  padding-right: 10px;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.footer__telegram-svg {
+  position: absolute;
+  left: 84%;
+  top: 36%;
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+}

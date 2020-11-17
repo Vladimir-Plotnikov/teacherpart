@@ -1,0 +1,54 @@
+.order-sevies {
+  width: 100%;
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url(../img/bgimg.jpg);
+
+  /*height: 600px;*/
+}
+
+/* order-servies-heading */
+.order-servies__title {
+  display: inline-block;
+  margin-left: 238px;
+  margin-right: 238px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $title-dark-theme-color;
+}
+
+.button-spacing {
+  padding-bottom: 200px;
+}
+/* order-servies-button */
+.order-servies__button {
+  display: inline-block;
+  margin-left: 485px;
+  margin-right: 485px;
+  width: 200px;
+  height: 50px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  border: 0px;
+  cursor: pointer;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background: #2196f3;
+}
